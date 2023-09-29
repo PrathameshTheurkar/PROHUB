@@ -1,62 +1,81 @@
-.Slogan{
-    color : white;
-    width : 100vw;
-    height : 50vh;
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani&family=Roboto+Mono&display=swap");
 
+.Slogan {
+  color: white;
+  width: 100vw;
+  display: flex;
+  margin-top: 80px;
+  justify-content: center;
+  /* align-items: center; */
 }
 
-.Slogan-mid{
-    text-align: center;
-    padding-top: 1vh;
-    width: 60vw;
-    height: 30vh;
-   
-    
+.Slogan-mid {
+  text-align: center;
+  padding-top: 1vh;
+  width: 60vw;
 }
 
-.Description{
-    text-align: center;
-    margin-bottom : 5vh;
+.search--inpt {
+  background-color: #010409;
+  border: none;
+  width: 95%;
+  font-size: 18px;
+  color: #fff;
+  font-family: Roboto Mono;
 }
 
-.Explore{
-    display: flex;
-    justify-content: center;
+.Description {
+  text-align: center;
+  margin-bottom: 5vh;
+  font-size: 24px;
 }
 
-.Slogan1{
-    
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.80) 16.7%, rgba(6, 6, 6, 0.00) 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 4vh;
+.Explore {
+  display: flex;
+  justify-content: center;
 }
 
-.Slogan2{
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.80) 16.7%, rgba(6, 6, 6, 0.00) 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom : 5vh;
-    font-size : 5vh;
+.Slogan1 {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.8) 16.7%,
+    rgba(6, 6, 6, 0) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5vh;
 }
 
-.Slogan3{
-    font-family: Salsa;
-    margin-bottom : 2vh;
+.Slogan2 {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.8) 16.7%,
+    rgba(6, 6, 6, 0) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 5vh;
+  font-size: 6vh;
 }
 
-.Slogan4
-{
-    margin-top : 2vh;
-}.explore-btn{
-    width:15vh;
-    height:5vh;
-    text-align:center;
-    font-weight: bold;
-    font-size: 2vh;
+.Slogan3 {
+  font-family: Salsa;
+  margin-bottom: 2vh;
+  font-size: 20px;
+  font-family: "Rajdhani", sans-serif;
+}
+
+.Slogan4 {
+  margin-top: 2vh;
+  font-size: 2vh;
+  font-family: "Rajdhani", sans-serif;
+}
+.explore-btn {
+  width: 15vh;
+  height: 5vh;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
 }

@@ -1,26 +1,25 @@
-.explore-section{
-  margin-top: 10vh;
-  
+.explore-section {
+  margin-top: 8vh;
 }
 
-.explore_start{
-  color: rgba(255, 255, 255, 0.50);
+.explore_start {
+  color: rgba(255, 255, 255, 0.5);
   margin-left: 10vh;
 }
 
-hr{
-  width : 90%;
-  color:rgba(255, 255, 255, 0.40);
+hr {
+  width: 90%;
+  color: rgba(255, 255, 255, 0.4);
 }
 
-.hr1{
+.hr1 {
   display: flex;
   justify-content: center;
   margin-bottom: 10vh;
 }
 
-.Cards-row{
-  display:flex;
+.Cards-row {
+  display: flex;
   justify-content: space-evenly;
   margin-bottom: 5vh;
 }

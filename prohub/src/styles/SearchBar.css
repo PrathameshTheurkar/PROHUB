@@ -1,46 +1,28 @@
-/* .Search{
-    border-radius: 5px;
-    width:50vh;
-    height: 4vh;
-    font-weight: bold;
-    font-size:15px;
-} */
-
-
-.github-search-container {
-    border: 1px solid white;
-    display: flex;
-    width: 300px;
-    border-radius: 3px;
-    background-color: black;
+.searchbar {
+  width: 40%;
+  padding: 10px 50px;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: #010409;
+  position: relative;
 }
 
-.c1{
-    
-    width: 41px;
-    height: 25px;
-    background-color: black;
-}
-.c2{
-    background-color:black;
-    outline: none;
-    width: 217px;
-    height: 30px;
-    padding: 0px;
-    border: 1px solid black; 
-    color: white;
+.searchbar::before {
+  display: block;
+  content: url("./../assets/search_Icon.svg");
+  position: absolute;
+  margin-left: -45px;
+  margin-top: -8px;
+  scale: 0.8;
 }
 
-.search_logo{
-    width: 20px;
-    height: 25px;
-}
-.search-button {
-    /* border-bottom-right-radius: 6px;
-    border-top-right-radius: 6px;
-    border: 1px solid #ccc; */
-    background-color: black;
-    padding: 0px;
-    border: 1px solid black;
-    cursor: pointer;
+.searchbar::after {
+  position: absolute;
+  right: 5px;
+  content: url("./../assets/search.svg");
+  margin-top: -14px;
+  scale: 0.8;
+  padding-left: 10px;
+  padding-top: 5px;
+  border-left: solid 1px #b8b8b8;
 }
