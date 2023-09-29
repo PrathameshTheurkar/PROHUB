@@ -4,7 +4,6 @@ import { GetAccountDetails } from "./appwite_assets/User";
 import Navbar from "./components/Navbar";
 import Slogan from "./components/Slogan";
 import Cards from "./components/cards";
-import CreateRepo from "./components/projectForm";
 
 let Session;
 
@@ -20,7 +19,6 @@ function App() {
     <div className="App">
       <Navbar />
       <Slogan />
-      <CreateRepo />
       <div className="explore-section">
         <span className="explore_start" id="explore">
           EXPLORE PROJECTS
