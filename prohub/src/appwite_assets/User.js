@@ -22,4 +22,4 @@ const OAuthGithub = (e) => {
   }
 };
 
-export { OAuthGithub, GetUserDetails };
+export { OAuthGithub };
