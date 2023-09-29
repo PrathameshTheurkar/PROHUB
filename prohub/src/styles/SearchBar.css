@@ -1,0 +1,46 @@
+/* .Search{
+    border-radius: 5px;
+    width:50vh;
+    height: 4vh;
+    font-weight: bold;
+    font-size:15px;
+} */
+
+
+.github-search-container {
+    border: 1px solid white;
+    display: flex;
+    width: 300px;
+    border-radius: 3px;
+    background-color: black;
+}
+
+.c1{
+    
+    width: 41px;
+    height: 25px;
+    background-color: black;
+}
+.c2{
+    background-color:black;
+    outline: none;
+    width: 217px;
+    height: 30px;
+    padding: 0px;
+    border: 1px solid black; 
+    color: white;
+}
+
+.search_logo{
+    width: 20px;
+    height: 25px;
+}
+.search-button {
+    /* border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    border: 1px solid #ccc; */
+    background-color: black;
+    padding: 0px;
+    border: 1px solid black;
+    cursor: pointer;
+}

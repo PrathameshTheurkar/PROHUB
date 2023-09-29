@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+.LoginButt{
+    margin-right:20px;
+}
+
 img{ 
     padding-left: 5px;
     padding-top: 5px;
@@ -13,7 +17,7 @@ img{
     height: 40px;
 }
 #login_button{
-    width:100px;
+    width:90px;
     height: 40px;
     background-color: white;
     color: black;
@@ -24,6 +28,9 @@ img{
 }
 #login2{
     padding-top: 13px;
-    padding-left: 8px;
+    padding-left: 5px;
+    padding-right : 20px;
     text-align: center;
+    font-weight: bolder;
 }
+
