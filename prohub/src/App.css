@@ -18,8 +18,10 @@ hr {
   margin-bottom: 10vh;
 }
 
-.Cards-row {
+.Cards-section {
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 5vh;
+  width: 80%;
+  margin: 0px auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }

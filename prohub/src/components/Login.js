@@ -6,10 +6,10 @@ import { OAuthGithub } from "../appwite_assets/User";
 const Login = () => {
   return (
     <div className="LoginButt">
-      <button id="login_button" onClick={OAuthGithub}>
+      <div id="login_button" onClick={OAuthGithub}>
         <img src={github_logo} alt="github_logo" />
         <div id="login2">LOGIN</div>
-      </button>
+      </div>
     </div>
   );
 };

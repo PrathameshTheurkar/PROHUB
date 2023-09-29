@@ -7,6 +7,10 @@
   position: relative;
 }
 
+.searchbar input:focus {
+  outline: none;
+}
+
 .searchbar::before {
   display: block;
   content: url("./../assets/search_Icon.svg");

@@ -16,16 +16,12 @@ function App() {
           <hr />
         </div>
         <div className="Cards-section">
-          <div className="Cards-row">
-            <Cards />
-            <Cards />
-            <Cards />
-          </div>
-          <div className="Cards-row">
-            <Cards />
-            <Cards />
-            <Cards />
-          </div>
+          <Cards />
+          <Cards />
+          <Cards />
+          <Cards />
+          <Cards />
+          <Cards />
         </div>
       </div>
     </div>

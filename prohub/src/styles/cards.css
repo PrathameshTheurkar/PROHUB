@@ -7,9 +7,8 @@
   border: 1px solid rgba(233, 233, 233, 0.6);
   background: #101728;
   padding: 20px;
+  margin: 30px;
 }
-
-
 
 .card--head {
   color: #fff;
@@ -26,9 +25,8 @@ body {
 }
 
 .card--des {
-   
   color: rgba(255, 255, 255, 0.6);
-  color : white;
+  color: white;
   font-family: Roboto Mono;
   font-size: 16px;
   font-style: normal;
