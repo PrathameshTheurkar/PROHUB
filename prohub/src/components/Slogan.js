@@ -18,7 +18,6 @@ const Slogan= () =>{
             <button className="explore-btn">Explore Now</button>
             </div>
             </div>
->>>>>>> a79a4d87fbb10c39091f49e9b38af57af88bd2d6
         </div>
         <div className="Slogan2">
           <h1>INNOVATION HUB</h1>
