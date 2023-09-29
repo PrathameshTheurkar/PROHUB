@@ -1,0 +1,10 @@
+.Nav{
+    background-color: #000000;
+    width: 100vw;
+    height : 7vh;
+    border-bottom:1px solid white;
+    color: white;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+}

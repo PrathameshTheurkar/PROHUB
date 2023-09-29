@@ -1,0 +1,41 @@
+.Slogan{
+    color : white;
+    width : 100vw;
+    height : 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Slogan-mid{
+    text-align: center;
+    padding-top: 2vh;
+    width: 60vw;
+    height: 30vh;
+   
+    
+}
+
+.Description{
+    text-align: center;
+    margin-bottom : 5vh;
+}
+
+.Explore{
+    display: flex;
+    justify-content: center;
+}
+
+.Slogan1{
+    
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.80) 16.7%, rgba(6, 6, 6, 0.00) 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 4vh;
+}
+
+.Slogan2{
+    margin-bottom : 10vh;
+    font-size : 5vh;
+}
