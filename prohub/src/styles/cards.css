@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+.card {
+  width: 420px;
+  height: 420px;
+  border-radius: 5px;
+  border: 1px solid rgba(233, 233, 233, 0.6);
+  background: #101728;
+  padding: 20px;
+}
+
+
+
+.card--head {
+  color: #fff;
+  font-family: Roboto Mono;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 117.385%;
+}
+
+body {
+  font-family: Roboto Mono;
+  color: white;
+}
+
+.card--des {
+   
+  color: rgba(255, 255, 255, 0.6);
+  color : white;
+  font-family: Roboto Mono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 30px 0px;
+}
+
+.card--update {
+  color: #fff;
+  font-family: Roboto Mono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.card--tag {
+  padding: 8px;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: #101728;
+  width: fit-content;
+}
+
+.card--button {
+  padding: 10px 15px;
+  width: fit-content;
+  border-radius: 22.5px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: #0d1117;
+}
