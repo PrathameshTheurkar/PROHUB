@@ -3,6 +3,7 @@ import "../styles/Navbar.css";
 import Logo from "./Logo.js";
 import Login from "./Login.js";
 import SearchBar from "./SearchBar.js";
+
 const Navbar = (props) => {
   return (
     <div className="Nav">

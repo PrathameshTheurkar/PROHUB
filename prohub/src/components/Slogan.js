@@ -1,8 +1,18 @@
-import React from "react";
-
+import React, { useContext } from "react";
 import "../styles/Slogan.css";
+import Explore from "./Explore";
+import CreateProject from "./createProject";
+import { Session } from "../App";
 
 const Slogan = () => {
+  const sessionDetails = useContext(Session);
+  let current;
+  if (sessionDetails !== null) {
+    current = <CreateProject />;
+  } else {
+    current = <Explore />;
+  }
+
   return (
     <>
       <div className="Slogan">
@@ -24,18 +34,9 @@ const Slogan = () => {
             </p>
             <p className="Slogan4">" WHERE TALENT MEETS OPPORTUNITY "</p>
           </div>
-          <div className="Explore">
-            <button
-              className="explore-btn"
-              onClick={() => {
-                window.location.href = "#explore";
-              }}
-            >
-              Explore Now
-            </button>
-          </div>
         </div>
       </div>
+      <div>{current}</div>
     </>
   );
 };

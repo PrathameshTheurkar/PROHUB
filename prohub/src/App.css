@@ -20,7 +20,7 @@ hr {
 
 .Cards-section {
   display: flex;
-  width: 80%;
+  width: 85%;
   margin: 0px auto;
   flex-wrap: wrap;
   justify-content: space-between;

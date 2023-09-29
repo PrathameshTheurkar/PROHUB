@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
 .card {
-  width: 420px;
+  width: 25vw;
   height: 420px;
   border-radius: 5px;
   border: 1px solid rgba(233, 233, 233, 0.6);
   background: #101728;
   padding: 20px;
-  margin: 30px;
+  margin: 15px;
 }
 
 .card--head {

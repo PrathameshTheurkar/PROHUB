@@ -7,19 +7,27 @@ client
   .setEndpoint("https://cloud.appwrite.io/v1")
   .setProject("651666416d9e57f8724a");
 
-const OAuthGithub = (e) => {
-  e.preventDefault();
-  try {
-    account
-      .createOAuth2Session(
-        "github",
-        "http://localhost:3000",
-        "http://localhost:2000"
-      )
-      .then(console.log("Done"));
-  } catch (er) {
-    console.log(er);
-  }
+const OAuthGithub = () => {
+  account.createOAuth2Session(
+    "github",
+    "https://prohub.netlify.app/",
+    "http://localhost:3000"
+  );
 };
 
-export { OAuthGithub };
+const GetAccountDetails = async (setUserSession) => {
+  const promise = account.get();
+  const session = await account.getSession("current");
+  setUserSession(session.providerAccessToken);
+
+  promise.then(
+    function (response) {
+      console.log(response);
+    },
+    function (error) {
+      console.log(error);
+    }
+  );
+};
+
+export { OAuthGithub, GetAccountDetails };
