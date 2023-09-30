@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/pro-hub_logo.png";
 import "../styles/Logo.css";
+
 const Logo = () => {
   return (
     <div className="Logo">

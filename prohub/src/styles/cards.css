@@ -5,9 +5,15 @@
   height: 420px;
   border-radius: 5px;
   border: 1px solid rgba(233, 233, 233, 0.6);
-  background: #101728;
+  background: #0b111e;
   padding: 20px;
   margin: 15px;
+  transition: 0.5s;
+  cursor: default;
+}
+
+.card:hover {
+  background-color: #1e1e1e;
 }
 
 .card--head {

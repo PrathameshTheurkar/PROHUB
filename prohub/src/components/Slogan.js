@@ -4,11 +4,12 @@ import Explore from "./Explore";
 import CreateProject from "./createProject";
 import { Session } from "../App";
 
-const Slogan = () => {
+const Slogan = (props) => {
   const sessionDetails = useContext(Session);
   let current;
+
   if (sessionDetails !== null) {
-    current = <CreateProject />;
+    current = <CreateProject handleOpenModal={props.handleOpenModal} />;
   } else {
     current = <Explore />;
   }
@@ -36,7 +37,7 @@ const Slogan = () => {
           </div>
         </div>
       </div>
-      <div>{current}</div>
+      {current}
     </>
   );
 };

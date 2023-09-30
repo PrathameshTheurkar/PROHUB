@@ -7,7 +7,7 @@ import { Session } from "../App";
 const Login = () => {
   const sessionDetails = useContext(Session);
   let styles;
-  if (sessionDetails !== null) {
+  if (sessionDetails === null) {
     styles = { opacity: 0 };
   } else {
     styles = {};

@@ -1,14 +1,9 @@
 import React from "react";
 
-function createProject() {
+async function createProject(props) {
   return (
     <div className="Explore">
-      <button
-        className="explore-btn"
-        onClick={() => {
-          // Handel Create project
-        }}
-      >
+      <button className="explore-btn" onClick={props.handleOpenModal}>
         Create Project
       </button>
     </div>

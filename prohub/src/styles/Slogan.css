@@ -73,12 +73,14 @@
   font-family: "Rajdhani", sans-serif;
 }
 .explore-btn {
-  padding: 10px;
+  padding: 10px 30px;
   text-align: center;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 20px;
   border-radius: 10px;
   transition: 0.3s;
+  border: none;
+  font-family: Roboto Mono;
 }
 
 .explore-btn:hover {

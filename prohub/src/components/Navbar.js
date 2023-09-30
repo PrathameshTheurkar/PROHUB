@@ -9,7 +9,7 @@ const Navbar = (props) => {
     <div className="Nav">
       <Logo />
       <SearchBar />
-      <Login />
+      <Login  />
     </div>
   );
 };

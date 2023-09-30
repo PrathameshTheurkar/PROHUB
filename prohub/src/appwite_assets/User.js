@@ -16,18 +16,9 @@ const OAuthGithub = () => {
 };
 
 const GetAccountDetails = async (setUserSession) => {
-  const promise = account.get();
   const session = await account.getSession("current");
-  setUserSession(session.providerAccessToken);
-
-  promise.then(
-    function (response) {
-      console.log(response);
-    },
-    function (error) {
-      console.log(error);
-    }
-  );
+  console.log(session);
+  // setUserSession(session.providerAccessToken);
 };
 
 export { OAuthGithub, GetAccountDetails };
