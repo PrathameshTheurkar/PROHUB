@@ -1,9 +1,10 @@
-import React from "react"
-import '../styles/cards.css'
+import React from "react";
+import "../styles/cards.css";
+import Tags from "./Tags";
 
-const Cards = () =>{
-    return(
-        <div className="card">
+const Cards = () => {
+  return (
+    <div className="card">
       <div className="card--head">CHAT APP</div>
       <div className="card--des">
         Lorem ipsum dolor sit amet consectetur. Ullamcorper gravida faucibus
@@ -13,8 +14,14 @@ const Cards = () =>{
         sit....
       </div>
       <div className="card--update">Last Date: 22 Oct 2023</div>
+      <div className="tag-holder">
+        <Tags title="HTML" />
+        <Tags title="JAVASCRIPT" />
+        <Tags title="REACT" />
+        <Tags title="COMP" />
+      </div>
     </div>
-    );
-}
+  );
+};
 
 export default Cards;

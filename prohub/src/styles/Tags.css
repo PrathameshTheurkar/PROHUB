@@ -1,0 +1,14 @@
+.card--tag {
+  padding: 8px;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: #101728;
+  width: fit-content;
+}
+
+.tag-holder {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
